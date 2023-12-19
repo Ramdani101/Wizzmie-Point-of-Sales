@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="apane" prefHeight="525.0" prefWidth="700.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg2022130044.SplashController">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="250.0" layoutY="102.0">
+         <image>
+            <Image url="@../assets/image/logoRevisi.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="302.0" layoutY="356.0" text="LOADING...">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

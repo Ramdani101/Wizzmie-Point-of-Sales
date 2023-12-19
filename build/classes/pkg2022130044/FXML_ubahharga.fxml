@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="525.0" prefWidth="700.0" style="-fx-background-color: F5F7F8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg2022130044.UbahHargaController">
+   <children>
+      <Label layoutX="252.0" layoutY="103.0" text="PENGATURAN HARGA WIZZMIE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Button fx:id="btnkonfirmasi" layoutX="237.0" layoutY="484.0" mnemonicParsing="false" onAction="#konfirmasiklik" style="-fx-background-color: linear-gradient(to right, #873C83, #DE3C96 ); -fx-background-radius: 20px;" text="Konfirmasi" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+          
+         </cursor></Button>
+      <Button fx:id="btnreset" layoutX="387.0" layoutY="484.0" mnemonicParsing="false" onAction="#resetklik" style="-fx-background-color: linear-gradient(to right, #873C83, #DE3C96 ); -fx-background-radius: 20px;" text="Reset" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+           
+         </cursor></Button>
+      <ImageView fitHeight="170.0" fitWidth="230.0" layoutX="251.0" layoutY="-39.0">
+         <image>
+            <Image url="@../assets/image/logo.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="16.0" layoutY="138.0" prefHeight="325.0" prefWidth="325.0" style="-fx-background-color: white; -fx-background-radius: 15px;">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.23000000417232513" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Label layoutX="126.0" layoutY="14.0" text="Harga Mie">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtmiegoyang" layoutX="126.0" layoutY="59.0" prefHeight="25.0" prefWidth="183.0" promptText="11000" />
+            <TextField fx:id="txtmiedisko" layoutX="126.0" layoutY="150.0" prefHeight="25.0" prefWidth="183.0" promptText="10000" />
+            <TextField fx:id="txtmiemanja" layoutX="126.0" layoutY="251.0" prefHeight="25.0" prefWidth="183.0" promptText="9000" />
+            <Label layoutX="29.0" layoutY="63.0" text="Mie Goyang" />
+            <Label layoutX="35.0" layoutY="154.0" text="Mie Disko" />
+            <Label layoutX="34.0" layoutY="255.0" text="Mie Manja" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="360.0" layoutY="138.0" prefHeight="325.0" prefWidth="325.0" style="-fx-background-color: white; -fx-background-radius: 15px;">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.23000000417232513" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Label layoutX="105.0" layoutY="14.0" text="Harga Rice Bowl">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtteriyaki" layoutX="130.0" layoutY="56.0" prefHeight="25.0" prefWidth="183.0" promptText="13000" />
+            <TextField fx:id="txtblackpaper" layoutX="130.0" layoutY="103.0" prefHeight="25.0" prefWidth="183.0" promptText="13000" />
+            <TextField fx:id="txtsambalmatah" layoutX="130.0" layoutY="150.0" prefHeight="25.0" prefWidth="183.0" promptText="13000" />
+            <TextField fx:id="txtsweet" layoutX="130.0" layoutY="199.0" prefHeight="25.0" prefWidth="183.0" promptText="13000" />
+            <TextField fx:id="txtspicy" layoutX="130.0" layoutY="250.0" prefHeight="25.0" prefWidth="183.0" promptText="13000" />
+            <Label layoutX="20.0" layoutY="60.0" text="R.B Teriyaki" />
+            <Label layoutX="20.0" layoutY="107.0" text="R.B BlackPaper" />
+            <Label layoutX="20.0" layoutY="154.0" text="R.B Sambal Matah" />
+            <Label layoutX="22.0" layoutY="203.0" text="R.B Sweet &amp; Sour" />
+            <Label layoutX="22.0" layoutY="254.0" text="R.B Spicy" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
